@@ -190,3 +190,7 @@ kiran@kiran:~/Simulators/ns3-workspace/ns-allinone-3.41/ns-3.41$ ./ns3 run hello
 ninja: no work to do.
 Hello Simulator
 ```
+
+
+### References
+- https://www.nsnam.org/docs/tutorial/html/getting-started.html#downloading-ns-3-using-bake

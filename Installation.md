@@ -11,7 +11,9 @@ The following are the basic installation steps for ns-3 using ***buid.py*** in U
 ### C++ Compiler:
 To verify if a C++ compiler is present run the below command in terminal:
 
-```g++ -v```
+```
+g++ -v
+```
 
 The output should display the version of g++ installed as below:
 
@@ -22,20 +24,26 @@ If not displayed, install g++. Refer to the link for [installation steps](https:
 ### Python
 Latest versions of ns-3 requires Python Version >=3.6. To check if Python V3 is installed, execute the below command in terminal:
 
-```python3 -V```
+```
+python3 -V
+```
 
 The output should display the version of python3 installed installed as below:
 >Python 3.12.1
 
 If not displayed, install Python V3 using the below command.
 
-```sudo apt install python3```
+```
+sudo apt install python3
+```
 
 ### CMake
 
 CMake of version >=3.13 is required for ns-3. To verify, execute the below command:
 
-```cmake -version```
+```
+cmake -version
+```
 
 The output should display the version of cmake installed as below:
 
@@ -43,7 +51,9 @@ The output should display the version of cmake installed as below:
 
 If not displayed, install Python V3 using the below command.
 
-```sudo apt install cmake```
+```
+sudo apt install cmake
+```
 
 ### Make and Ninja
 
